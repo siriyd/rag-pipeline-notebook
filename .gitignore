@@ -1,0 +1,17 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Jupyter-generated state
+.ipynb_checkpoints/
+
+# Generated vector database files
+data/vector_store/
