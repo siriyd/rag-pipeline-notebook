@@ -50,16 +50,5 @@ OPENAI_API_KEY=your-openai-key
 
 You only need to provide the key for the model provider you intend to use.
 
-**Never commit API keys or `.env` files to GitHub.**
 
-## Notes
 
-- `data/vector_store/` is generated locally and is ignored by Git. It can be rebuilt by running the ingestion cells.
-- Only commit PDF files that you have permission to redistribute.
-- This is a **learning project** intended to demonstrate the fundamentals of building a RAG pipeline. It is not a production-ready RAG application.
-
-## Repository
-
-**Repository name:** `rag-pipeline-notebook`
-
-**Description:** Educational LangChain RAG pipeline with PDF ingestion, sentence-transformer embeddings, Chroma retrieval, and Groq/OpenAI generation.
